@@ -35,9 +35,9 @@ const projects = [
     name: 'Event Planner',
     description:
       'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb', 'handlebars', 'express', 'nodejs'],
-    sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
-    livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
+    stack: ['swiper.js', 'html, css, javascript'],
+    sourceCode: 'https://github.com/ikpeku/crystal-event',
+    livePreview: 'https://ikpeku.github.io/crystal-event/',
   },
   {
     name: 'Investment Platform',
@@ -48,20 +48,12 @@ const projects = [
     livePreview: 'https://royal-stock.vercel.app/',
   },
   {
-    name: 'GameStoreData(back end)',
+    name: 'Ecommerce',
     description:
-      'GameStoreData is able to let user retrieve the game from database based on its year and category',
-    stack: ['Java 8', 'MySQL', 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
-
-  },
-  {
-    name: 'Music Store(back end)',
-    description:
-      'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
-    livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+      'A simple ecommmerce site where user can order favourite product from',
+    stack: ['html-css-javascript', 'firebase', 'React'],
+    sourceCode: 'https://github.com/ikpeku/cassy-marketplace',
+    livePreview: 'https://cassy-decor.netlify.app/',
   },
 ]
 
