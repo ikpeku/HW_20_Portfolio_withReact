@@ -4,13 +4,13 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const {photo,name, role, description, resume, social } = about
+  const { photo, name, role, description, resume, social } = about
 
   return (
     <div className='about center'>
-      {photo && (
+      {/* {photo && (
        <img height="200px" alt="Avatar placeholder" src={photo} />
-      )}
+      )} */}
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} target="_blank" rel='noreferrer'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
@@ -33,6 +33,7 @@ const About = () => {
           <>
             {social.github && (
               <a
+                target="_blank" rel='noreferrer'
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
@@ -43,6 +44,7 @@ const About = () => {
 
             {social.linkedin && (
               <a
+                target="_blank" rel='noreferrer'
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
