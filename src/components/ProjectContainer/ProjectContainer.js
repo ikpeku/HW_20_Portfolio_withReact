@@ -7,7 +7,10 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
+
     <p className='project__description'>{project.description}</p>
+
+    <img className='img' src={project.photo} alt={project.name} />
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -17,6 +20,7 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
+
 
     {project.sourceCode && (
       <a

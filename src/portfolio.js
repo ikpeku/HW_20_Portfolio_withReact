@@ -1,4 +1,9 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
+
+import cryptoCart from "./components/Access/cryptoCart.png"
+import eventPlanning from "./components/Access/eventPlanning.png"
+import store from "./components/Access/store.png"
+import invest from "./components/Access/invest.png"
+
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -7,13 +12,12 @@ const header = {
 }
 
 const about = {
-  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'DANIEL IKPE',
   role: 'Frontend web and mobile developer',
   description:
-    'Self motivated and  highly interested in cutting edge technology, sure as mobile develop and web development.',
-  resume: 'https://docs.google.com/document/d/1ZxTUqM66oRLljU7ZhF4tcQZf2Iyqo0h7D58aGD-Tp_w/edit?usp=sharing',
+    'Self motivated and  highly interested in cutting edge technology, sure as mobile/web development.',
+  resume: 'https://docs.google.com/document/d/1is7JtXRd5EYmMPFkQiH8qVactd9b3NP1/edit?usp=sharing&ouid=114183464987253703337&rtpof=true&sd=true',
   social: {
     linkedin: 'https://www.linkedin.com/in/daniel-ikpe-aaa519220/',
     github: 'https://github.com/ikpeku',
@@ -23,16 +27,10 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-  {
-    name: 'Favourite Cryto price tracker',
-    description:
-      'As users, after authentification user can view the latest price of coins, search for favorite tokens. You are also presented with options to invest in the token of your choice.',
-    stack: ['Asyncstorage', 'firebase cloud storage', 'coinegecko crypto API', 'React-Native'],
-    sourceCode: 'https://github.com/ikpeku/coinbasepro',
-    livePreview: 'https://expo.dev/accounts/aloremmanuel/projects/coinbasepro/builds/fe1ea9ef-63c8-4ea4-8c3e-99cada5136d2',
-  },
+
   {
     name: 'Event Planner',
+    photo: eventPlanning,
     description:
       'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
     stack: ['swiper.js', 'html, css, javascript'],
@@ -41,6 +39,7 @@ const projects = [
   },
   {
     name: 'Investment Platform',
+    photo: invest,
     description:
       'Trading app, user are able to manage their resources by inesting in trading ,time and budget in one company in order to help user to manage their crypto asset.',
     stack: ['html-css-javascript', 'firebase', 'React'],
@@ -49,11 +48,21 @@ const projects = [
   },
   {
     name: 'Ecommerce',
+    photo: store,
     description:
       'A simple ecommmerce site where user can order favourite product from',
     stack: ['html-css-javascript', 'firebase', 'React'],
     sourceCode: 'https://github.com/ikpeku/cassy-marketplace',
     livePreview: 'https://cassy-decor.netlify.app/',
+  },
+  {
+    name: 'Favourite Cryto price tracker',
+    photo: cryptoCart,
+    description:
+      'As users, after authentification user can view the latest price of coins, search for favorite tokens. You are also presented with options to invest in the token of your choice.',
+    stack: ['Asyncstorage', 'firebase cloud storage', 'coinegecko crypto API', 'React-Native'],
+    sourceCode: 'https://github.com/ikpeku/coinbasepro',
+    livePreview: 'https://expo.dev/accounts/aloremmanuel/projects/coinbasepro/builds/fe1ea9ef-63c8-4ea4-8c3e-99cada5136d2',
   },
 ]
 

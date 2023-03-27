@@ -4,6 +4,7 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  /* max-width: 600px; */
 }
 
 .project:hover {
@@ -30,4 +31,11 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+
+.img {
+  width: 100%;
+  object-fit: fill;
+  height: max-content;
 }
