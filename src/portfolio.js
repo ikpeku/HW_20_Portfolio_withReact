@@ -12,7 +12,7 @@ const about = {
   name: 'DANIEL IKPE',
   role: 'Frontend web and mobile developer',
   description:
-    'Self motivated nd  highly interested in cutting edge technology, web development and Java back end development.',
+    'Self motivated and  highly interested in cutting edge technology, sure as mobile develop and web development.',
   resume: 'https://docs.google.com/document/d/1ZxTUqM66oRLljU7ZhF4tcQZf2Iyqo0h7D58aGD-Tp_w/edit?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/daniel-ikpe-aaa519220/',
