@@ -17,7 +17,7 @@ const about = {
   role: 'Frontend web and mobile developer',
   description:
     'Self motivated and  highly interested in cutting edge technology, sure as mobile/web development.',
-  resume: 'https://docs.google.com/document/d/1is7JtXRd5EYmMPFkQiH8qVactd9b3NP1/edit?usp=sharing&ouid=114183464987253703337&rtpof=true&sd=true',
+  resume: 'http://bit.ly/3FSBeww',
   social: {
     linkedin: 'https://www.linkedin.com/in/daniel-ikpe-aaa519220/',
     github: 'https://github.com/ikpeku',
@@ -57,6 +57,7 @@ const projects = [
   },
   {
     name: 'Favourite Cryto price tracker',
+    app: 'Mobile App',
     photo: cryptoCart,
     description:
       'As users, after authentification user can view the latest price of coins, search for favorite tokens. You are also presented with options to invest in the token of your choice.',
@@ -69,18 +70,19 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
   'TypeScript',
-  'React',
+  'React Native',
+  'React JS',
+  'JavaScript',
   'Redux',
-  'SASS',
-  'Tailwind',
-  'Material UI',
   'Git',
   'Firebase',
-  'AWS Amplify'
+  'Material UI',
+  'AWS Amplify',
+  'Tailwind',
+  'SASS',
+  'CSS',
+  'HTML',
 
 ]
 
