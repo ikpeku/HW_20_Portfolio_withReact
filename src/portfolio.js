@@ -16,7 +16,7 @@ const about = {
   name: 'DANIEL IKPE',
   role: 'Frontend web and mobile developer',
   description:
-    'Self motivated and  highly interested in cutting edge technology, sure as mobile/web development.',
+    'Self motivated and  highly interested in cutting edge technology, such as mobile/web development.',
   resume: 'http://bit.ly/3FSBeww',
   social: {
     linkedin: 'https://www.linkedin.com/in/daniel-ikpe-aaa519220/',
@@ -24,8 +24,9 @@ const about = {
   },
 }
 
+
 const projects = [
-  // projects can be added an removed
+  // projects can be added and removed
   // if there are no projects, Projects section won't show up
 
   {
@@ -55,6 +56,11 @@ const projects = [
     sourceCode: 'https://github.com/ikpeku/cassy-marketplace',
     livePreview: 'https://cassy-decor.netlify.app/',
   },
+]
+
+const projectsMobile = [
+  // projects can be added and removed
+  // if there are no projects, Projects section won't show up
   {
     name: 'Favourite Cryto price tracker',
     app: 'Mobile App',
@@ -91,4 +97,4 @@ const contact = {
   email: 'ikpedaniel07@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, projectsMobile, skills, contact }

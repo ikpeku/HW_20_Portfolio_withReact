@@ -4,7 +4,8 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { photo, name, role, description, resume, social } = about
+  // const { photo, name, role, description, resume, social } = about
+  const { name, role, description, resume, social } = about
 
   return (
     <div className='about center'>

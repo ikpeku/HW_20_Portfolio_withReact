@@ -1,19 +1,16 @@
-import { contact } from '../../portfolio'
+// import { contact } from '../../portfolio'
 import './Contact.css'
 
-const Contact = () => {
-  if (!contact.email) return null
-
-  return (
+const Contact = () => (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
-      <a target="_blank" rel='noreferrer' href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline'>
+      <a rel='noreferrer' href="mailto:ikpedaniel07@gmail.com?subject=Mail from your Portfolio Website">
+        <button type='button' className='btn btn--outline'>
           Email me
-        </span>
+        </button>
       </a>
     </section>
   )
-}
+
 
 export default Contact
